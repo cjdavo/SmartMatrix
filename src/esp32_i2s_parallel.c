@@ -33,6 +33,9 @@
 #include "rom/lldesc.h"
 #include "esp_heap_caps.h"
 #include "esp32_i2s_parallel.h"
+#include "soc/gpio_periph.h"
+#include "esp32-hal.h"
+#include "hal/gpio_types.h"
 
 #if CONFIG_IDF_TARGET_ESP32
 #include "esp32/rom/gpio.h"
